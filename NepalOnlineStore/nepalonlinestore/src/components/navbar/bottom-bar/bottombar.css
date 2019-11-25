@@ -1,0 +1,31 @@
+
+h2{
+    color:#042dd3;
+    font-weight: 900;
+    font-size:32px;
+    margin-right: auto;
+}
+.bottomlist{
+    display:flex;
+    padding:0 0  0 4rem;
+    list-style: none;
+}
+.bottomlist ul{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.bottomlist ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    color: black;
+}
+.bottomlist ul li span{
+    margin-right: 10px;
+    font-size: 32px;
+    color:#2879fe;
+}
+
